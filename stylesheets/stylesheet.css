@@ -51,6 +51,12 @@ a:focus {
   outline: none;
 }
 
+b {
+  font-weight: bold;
+  display: inline-block;
+  width: 150px;
+}
+
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
@@ -76,6 +82,14 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 36px;
   font-weight: 700;
+}
+
+p + h1 {
+   padding-top: 40px;
+}
+
+p + h3 {
+   padding-top: 20px;
 }
 
 h2 {
